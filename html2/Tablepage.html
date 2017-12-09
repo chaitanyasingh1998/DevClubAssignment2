@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table Webpage</title>
+	<style type="text/css">
+		table,td{
+			border: 1px solid black;
+			border-collapse: collapse;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		td{
+			padding: 6px;
+		}
+		table#t01{
+			border:3px solid black;
+			margin-left: auto;
+			margin-right: auto;
+			border-spacing: 4px;
+		}
+		.t02{
+			background-image: url(F:\IITD\Web Dev\html2\frog.jpg);
+		}
+	</style>
+</head>
+<body>
+	<table style="width: 40% ">
+		<tr>
+			<td style="text-align: left;">left</td>
+			<td style="text-align: center;">center</td>
+			<td style="text-align: right;">right</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">left</td>
+			<td style="text-align: center;">center</td>
+			<td style="text-align: right;">right</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">left</td>
+			<td style="text-align: center;">center</td>
+			<td style="text-align: right;">right</td>
+		</tr>
+	</table><br><br>
+	<table style="width: 40%">
+		<tr>
+			<td colspan="6"></td>
+		</tr>
+		<tr>
+			<td rowspan="4"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td colspan="3" rowspan="2"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="6"></td>
+		</tr>
+	</table><br><br>
+	<table width="40%">
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><table width="100%">
+				<tr><td></td></tr>
+				<tr><td></td></tr>
+				<tr><td></td></tr>
+				<tr><td></td></tr>
+			</table></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table><br>
+	<table id="t01" width="40%" cellpadding="8px">
+		<tr >
+			<td bgcolor="#57712F" colspan="3" height="25px"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="center" background="frog.jpg" width="260px" height="160px"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td bgcolor="#2F4171" colspan="3" height="25px"></td>
+		</tr>
+	</table>
+</body>
+</html>
